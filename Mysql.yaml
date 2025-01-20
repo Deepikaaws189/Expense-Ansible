@@ -18,5 +18,5 @@
         login_host: mysql.daws82.online
       register: mysql_info
     - name: Print the output
-      ansible-builtin.debug:
+      ansible.builtin.debug:
         msg: "MySql info: {{mysql_info}}"
